@@ -1,4 +1,4 @@
-#include <stdio.h:wq>
+#include <stdio.h>
 
 /**
  *main - Entry point
@@ -9,12 +9,12 @@
 int main(void)
 {
 
-	char c;
-c = 'a';
-	while (c <= 'z')
+	char m;
+m = 'a';
+	while (m <= 'z')
 	{
-		putchar(c);
-		c++;
+		putchar(m);
+		m++;
 	}
 	putchar('\n');
 	return (0);
