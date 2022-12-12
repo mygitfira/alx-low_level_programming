@@ -8,26 +8,23 @@
 
 int main(void)
 {
-int c, m, l, p;
-	for (c = 48; c <= 57; c++)
+int c, m;
+	for (c = 0; c < 100; c++)
 	{
-		for (m = 48; m <= 57; m++)
+		for (m = 0; m < 100; m++)
 		{
-			for (l = 48; l <= 57; l++)
-			{
-				for (p = 48; p <= 57; p++)
-				{
-					if (c <= l && m < p)
-					{
-					putchar(c);
-					putchar(m);
-					putchar(32);
-					putchar(l);
-					putchar(p);
-					putchar(44);
-					putchar(32);
-					}
-			}
+		if (c < m)
+		{
+		putchar((c / 10) + 48);
+		putchar((c % 10) + 48);
+		putchar(32);
+		putchar((m / 10) + 48);
+		putchar((m % 10) + 48);
+		if (c != 98 || m != 99)
+		{
+		putchar(',');
+		putchar(32);
+		}
 		}
 		}
 	}
