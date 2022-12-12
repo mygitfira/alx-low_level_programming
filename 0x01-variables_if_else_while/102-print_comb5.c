@@ -25,6 +25,7 @@ int c, m, l, p;
 					putchar(l);
 					putchar(p);
 					putchar(44);
+					putchar(32);
 					}
 			}
 		}
