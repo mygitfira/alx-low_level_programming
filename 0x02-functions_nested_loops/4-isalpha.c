@@ -2,7 +2,7 @@
 #include <ctype.h>
 
 /**
- *_islower - Entry point
+ *_isalpha - Entry point
  * @c: character to be checked
  *Return: Always 0 (Success)
  */
