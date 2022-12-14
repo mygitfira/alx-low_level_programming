@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *-abs - Entry point
+ *_abs - Entry point
  * @n: character to be checked
  *Return: Always 0 (Success)
  */
