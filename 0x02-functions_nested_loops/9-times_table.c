@@ -21,6 +21,7 @@ for (i = 0; i <= 9; i++)
 		{
 		_putchar(',');
 		_putchar(' ');
+		if (i * (j + 1) < 10)
 		_putchar(' ');
 		}
 		}
