@@ -1,23 +1,24 @@
 #include "main.h"
 
 /**
- * print_square - check the code.
+ *print_triangle - check the code.
  *@size: number of blank
  * Return: void
  */
 
-void print_square(int size)
+void print_triangle(int size)
 {
 int j, i;
 if (size > 0)
 {
-for (j = 1; j <= size; j++)
+for (i = 1; i <= size; i++)
 {
-	i = 1;
-	while (i <= size)
+	for (j = size; j >= 1; j--)
 	{
-	_putchar('#');
-	i++;
+		if (j > i)
+			_putchar(' ');
+		else
+			_putchar('#');
 	}
 	_putchar('\n');
 }
