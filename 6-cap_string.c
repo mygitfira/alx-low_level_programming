@@ -10,11 +10,11 @@ char *cap_string(char *a)
 {
 int len = 0, i, j;
 char k = 'a', l = 'A';
-while (a[len] != '\0')
+while (a[le] != '\0')
 {
-	len++;
+	le++;
 }
-for (i = 0; i <= len; i++)
+for (i = 0; i <= le; i++)
 {
 	k = 'a';
 	l = 'A';
