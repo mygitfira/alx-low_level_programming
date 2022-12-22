@@ -9,7 +9,7 @@
 char *cap_string(char *a)
 {
 int i, j, trigger;
-char nots[] = ",;.!?(){}\n\t\" ";
+char nots[] = ",;.!?(){}\nt\" ";
 for (i = 0, trigger = 0; a[i] != '\0'; i++)
 {
 	for (j = 0; nots[j] != '\0'; j++)
