@@ -9,9 +9,11 @@
 char *cap_string(char *a)
 {
 int i, j, trigger;
-char nots[] = ",;.!?(){}\nt\" ";
+char nots[] = ",;.!?(){}\n\t\" ";
 for (i = 0, trigger = 0; a[i] != '\0'; i++)
 {
+	if (a[i] > 96 && a[i] < 123)
+		trigger = 1;
 	for (j = 0; nots[j] != '\0'; j++)
 	{
 		if (nots[j] == a[i])
