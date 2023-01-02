@@ -2,8 +2,8 @@
 
 /**
  * _strspn - prints buffer in hexa
- * @s: the address of memory to print
- * @accept: the size of the memory to print
+ * @s: source string
+ * @accept: accepted srting
  * Return: 0.
  */
 unsigned int _strspn(char *s, char *accept)
