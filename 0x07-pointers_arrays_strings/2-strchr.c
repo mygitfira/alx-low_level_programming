@@ -18,7 +18,8 @@ while (s[i])
 			if (s[j] == c)
 			{
 			s += j;
+			return (s);
 			}
 		}
-return (s);
+return ('\0');
 }
